@@ -1,6 +1,6 @@
 /***********************************************************************************
-    Autor:    Bruno Franciosi
-    Program: Insertion Sort.
+    Author:     Bruno Franciosi
+    Program:    Insertion Sort.
             Insertion sort is a simple sorting algorithm that is 
             relatively efficient for small lists and mostly sorted lists.
             It works by taking elements from the list one by one and
