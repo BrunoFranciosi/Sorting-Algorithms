@@ -12,3 +12,15 @@
 	2.3 Quicksort
 	2.4 Shellsort
 
+#	3. Bubble sort and variants
+	3.1 Bubble sort
+	3.2 Comb sort
+	3.3 Exchange sort
+
+#	4. D sort
+	4.1 Counting sort
+	4.2 Bucket sort
+	4.3 Radix sort
+
+
+
