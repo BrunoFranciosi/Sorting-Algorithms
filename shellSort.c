@@ -21,19 +21,19 @@ void showArray(int A[], int size){
 }
 
 void shellSort(int A[], int size){
-    int lastOrd, aux, ant, desl;
+    int lastOrd, aux, prev, desl;
 
     desl = size/2;
     while(desl > 0){
         for(lastOrd = 0; lastOrd < size-desl; lastOrd++){
             aux = A[lastOrd + desl];
-            ant = lastOrd;
+            prev = lastOrd;
 
-            while((ant >= 0) && (A[ant] > aux)){
-                A[ant + desl] = A[ant];
-                ant = ant - desl;
+            while((prev >= 0) && (A[prev] > aux)){
+                A[prev + desl] = A[prev];
+                prev = prev - desl;
             }
-            A[ant + desl] = aux;
+            A[prev + desl] = aux;
         }
         desl = desl/2;
     }
